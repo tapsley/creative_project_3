@@ -33,7 +33,9 @@ var app = new Vue({
 			$(".row div").removeClass("ex");
 			$(".row div").removeClass("oh");
 			$(".row div").text("");
+			this.turn = true;
 		}
+		
 		
 	},
 

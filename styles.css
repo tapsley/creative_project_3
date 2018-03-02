@@ -1,6 +1,44 @@
 body {
+	font-family: 'Coiny', cursive;
 	padding: 20px 100px 0px 100px;
 	background: #f4f4f4;
+	display: flex;
+	justify-content: center;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+}
+
+h1 {
+	display: flex;
+	justify-content: space-around;
+}
+
+button {
+	margin-top: 50px;
+	height: 50px;
+	border-radius: 41px;
+	border: none;
+	background: darkslateblue;
+	font-size: 26px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	
+}
+
+button:hover {
+	background: slateblue;
+}
+
+button:active {
+	background: mediumslateblue;
+}
+
+button:focus {
+	outline: 0;
 }
 
 #board {
@@ -8,10 +46,13 @@ body {
 }
 
 .row div {
+	font-family: 'Indie Flower', cursive;
 	display: flex;
-	width: 50px;
-	height: 50px;
+	width: 80px;
+	height: 80px;
+	font-size: 52px;
 	border: 1px solid black;
+	cursor: pointer;
 	align-items: center;
 	justify-content: space-around;
 }
