@@ -1,0 +1,62 @@
+body {
+	padding: 20px 100px 0px 100px;
+	background: #f4f4f4;
+}
+
+#board {
+	display: flex;
+}
+
+.row div {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.oh {
+	color: red;
+}
+
+.ex {
+	color: blue;
+}
+
+#tl {
+	border-top: 1px solid #f4f4f4;
+	border-left: 1px solid #f4f4f4;
+}
+
+#tm {
+	border-top: 1px solid #f4f4f4;
+}
+
+#tr {
+	border-top:1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+}
+
+
+#bl {
+	border-bottom: 1px solid #f4f4f4;
+	border-left: 1px solid #f4f4f4;
+}
+
+#bm {
+	border-bottom: 1px solid #f4f4f4;
+}
+
+#br {
+	border-bottom:1px solid #f4f4f4;
+	border-right: 1px solid #f4f4f4;
+}
+
+#mr {
+	border-right: 1px solid #f4f4f4;
+}
+
+#ml {
+	border-left: 1px solid #f4f4f4;
+}

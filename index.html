@@ -1,0 +1,45 @@
+<html>
+<head>
+	<link rel="stylesheet" href="styles.css"/>
+	
+	<title>TIC-TAC-TOE</title>
+</head>
+
+<body>
+	<div id="app">
+		<h1>TIC-TAC-TOE</h1>
+		
+		
+		<div id="board">
+			<div class="row">
+				<div id="tl" v-on:click="squareClick"></div>
+				<div id="ml" v-on:click="squareClick"></div>
+				<div id="bl" v-on:click="squareClick"></div>
+			</div>
+			<div class="row">
+				<div id="tm" v-on:click="squareClick"></div>
+				<div id="mm" v-on:click="squareClick"></div>
+				<div id="bm" v-on:click="squareClick"></div>
+			</div>
+			<div class="row">
+				<div id="tr" v-on:click="squareClick"></div>
+				<div id="mr" v-on:click="squareClick"></div>
+				<div id="br" v-on:click="squareClick"></div>		
+			</div>
+		</div>
+		
+		<button v-on:click="resetBoard">Reset</button>
+		
+	
+	
+	
+	</div>
+
+	<footer>
+		<a target="_blank" href="https://github.com/tapsley/creative_project_3">
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
